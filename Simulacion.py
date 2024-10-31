@@ -49,7 +49,7 @@ def prueba_caja_express_limite_alto():
     caja_normal3 = Caja(500, 100)
     caja_express = Caja(700, 100, es_express=True)
 
-    LIMITE_ARTICULOS_EXPRESS_ALTO = 20
+    LIMITE_ARTICULOS_EXPRESS_ALTO = 30
     NUM_CLIENTES = 15
 
     for _ in range(NUM_CLIENTES):
